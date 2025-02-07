@@ -679,10 +679,10 @@ color: #8e8f99;
 justify-content: center;
 fill: transparent;
 }
-.modal-checkbox =checked{
+.modal-checkbox checked{
 fill: #f4f4fd;
 }
 .link-checkbox{
     color:  #4d5ae5;
-    
+
 }
