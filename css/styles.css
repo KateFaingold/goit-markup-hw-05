@@ -497,7 +497,7 @@
      margin-right: 120px;
  }
 
- .footer-social {}
+ 
 
  .icons-list-footer {
      display: flex;
@@ -658,9 +658,9 @@ fill: #ffffff;}
 .wrap-checkbox{
     margin-bottom: 24px;
 }
-.modal-checkbox{
+
     
-}
+
 .text-checkbox{
     font-weight: 400;
 font-size: 12px;
