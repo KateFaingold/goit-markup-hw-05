@@ -173,7 +173,7 @@
      margin: 0 auto;
  }
 
- .hero-btn {
+ .button-order-send {
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
@@ -185,7 +185,6 @@
      padding: 16px 32px;
      border-radius: 4px;
      margin: 0 auto;
-     margin-top: 48px;
      display: block;
      min-width: 169px;
      height: 56px;
@@ -193,8 +192,8 @@
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .hero-btn:hover,
- .hero-btn:focus {
+ .button-order-send:hover,
+ .button-order-send:focus {
      background-color: #404bbf;
  }
 
@@ -722,7 +721,6 @@ color: #FFFFFF;
 }
 .btn-subscribe{
 border-radius: 4px;
-
 min-width: 165px;
 height: 40px;
 display: flex;
@@ -738,9 +736,16 @@ color: #fff;
 background-color: #4d5ae5;
 cursor: pointer;
 border: none;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-sub{
     margin-left: 16px;
-    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+.wrap-subscribe{
+    margin-left: 80px;
+}
+.btn-subscribe:hover,
+.btn-subscribe:focus {
+    background-color: #404bbf;
 }
