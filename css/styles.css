@@ -627,6 +627,9 @@ pointer-events: auto;
 .modal-input:focus{
     border-color: #4D5AE5;
 }
+.modal-input:focus + .icons-modal{
+    fill: #4D5AE5;
+}
 .icons-modal{
     position: absolute;
     left: 16px;
@@ -655,8 +658,9 @@ pointer-events: auto;
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    border-radius: 4px;
 }
+
 .modal-comment:focus{
     border-color: #4D5AE5; 
 }
@@ -666,7 +670,6 @@ pointer-events: auto;
 .modal-chekbox{
     visibility: hidden;
 }
-
 
 .text-checkbox{
     font-weight: 400;
@@ -683,18 +686,20 @@ color: #8e8f99;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     align-items: center;
-justify-content: center;
-fill: transparent;
+    justify-content: center;
+    fill: transparent;
 }
-/* .modal-checkbox checked{ */
-/* fill: #f4f4fd; */
+.modal-checkbox:checked + .span-checkbox{
+fill: #f4f4fd;
+border: none;
+background-color: #404bbf;}
 
 .link-checkbox{
     color:  #4d5ae5;
 }
-.text-subscribe{
-    margin-bottom: 16px;
-    font-weight: 500;
+.text-subscribe {
+margin-bottom: 16px;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -706,9 +711,9 @@ color: #fff;
 
 }
 .email-subscribe{
-    width: 264px;
-    height: 40px;
-    border: 1px solid #ffffff;
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
 background-color: transparent;
 font-size: 12px;
 line-height: 2;
